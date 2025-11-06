@@ -1,12 +1,12 @@
 # TP Blockchain – Guide du Notebook
 
-Ce dépôt contient un notebook Jupyter (`TP_controle.ipynb`) dédié à la conception, à l'implémentation et à l'analyse d'une blockchain pédagogique. Le notebook mêle théorie, code Python commenté et démonstrations contrôlées afin d'offrir une progression académique complète : des fondations conceptuelles jusqu'aux scénarios de décentralisation simulée.
+Ce dépôt contient un notebook Jupyter (`TP_controle.ipynb`) dédié à la conception, à l'implémentation et à l'analyse d'une blockchain pédagogique. Le notebook mêle théorie, code Python commenté et démonstrations contrôlées afin d'offrir une progression complète : des fondations conceptuelles jusqu'aux scénarios de décentralisation simulée.
 
 ---
 
 ## Table des matières
 
-1. [Organisation académique](#organisation-académique)
+1. [Organisation](#organisation)
 2. [Structure du code et bonnes pratiques](#structure-du-code-et-bonnes-pratiques)
 3. [Démonstrations contrôlées](#démonstrations-contrôlées)
 4. [API REST simulée](#api-rest-simulée)
@@ -18,7 +18,7 @@ Ce dépôt contient un notebook Jupyter (`TP_controle.ipynb`) dédié à la conc
 
 ---
 
-## Organisation académique
+## Organisation
 
 ### Objectifs pédagogiques
 
