@@ -6,7 +6,6 @@ Ce dépôt contient un notebook Jupyter (`TP_controle.ipynb`) dédié à la conc
 
 ## Table des matières
 
-<<<<<<< HEAD
 1. [Organisation](#organisation)
 2. [Structure du code et bonnes pratiques](#structure-du-code-et-bonnes-pratiques)
 3. [Démonstrations contrôlées](#démonstrations-contrôlées)
