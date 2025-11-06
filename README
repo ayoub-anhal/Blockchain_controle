@@ -1,0 +1,109 @@
+BLOCKCHAIN_PROJET.ipynb
+│
+├── [CELLULE MARKDOWN] - Titre Principal
+│   ├── Titre du projet
+│   ├── Table des matières avec liens d'ancrage
+│   └── Instructions d'utilisation
+│
+├── [CELLULE CODE] - Configuration Initiale
+│   ├── Imports (hashlib, json, time, datetime, requests, flask, threading)
+│   ├── Constantes globales
+│   └── Fonctions helpers d'affichage
+│
+├── [CELLULE MARKDOWN] - Introduction Théorique
+│   ├── Concepts fondamentaux blockchain
+│   ├── Diagramme ASCII de structure
+│   └── Vocabulaire technique
+│
+├── PARTIE I - BLOCKCHAIN MONOPOSTE
+│   │
+│   ├── 1. STRUCTURE DU BLOC
+│   │   ├── [MARKDOWN] - Théorie du bloc
+│   │   ├── [CODE] - Classe Block (__init__, calculate_hash, __repr__, to_dict)
+│   │   ├── [CODE] - Test du bloc
+│   │   └── [MARKDOWN] - Analyse des résultats
+│   │
+│   ├── 2. PROOF OF WORK (MINAGE)
+│   │   ├── [MARKDOWN] - Théorie du PoW
+│   │   ├── [CODE] - Méthode mine_block(difficulty)
+│   │   ├── [CODE] - Démonstration comparative (difficulté 2 vs 4)
+│   │   └── [MARKDOWN] - Graphique textuel temps de minage
+│   │
+│   ├── 3. CONSTRUCTION DE LA BLOCKCHAIN
+│   │   ├── [MARKDOWN] - Architecture de la chaîne
+│   │   ├── [CODE] - Classe Blockchain (create_genesis_block, get_latest_block, add_block, is_chain_valid)
+│   │   ├── [CODE] - Construction progressive (5 blocs)
+│   │   └── [MARKDOWN] - Visualisation ASCII de la chaîne
+│   │
+│   ├── 4. SYSTÈME DE TRANSACTIONS
+│   │   ├── [MARKDOWN] - Concept de transaction
+│   │   ├── [CODE] - Classe Transaction (to_dict, validation)
+│   │   ├── [CODE] - Extension Blockchain (pending_transactions, mining_reward, create_transaction, add_block modifié)
+│   │   ├── [CODE] - Simulation économique (transactions + minage + get_balance)
+│   │   └── [MARKDOWN] - Tableau des balances
+│   │
+│   ├── 5. VALIDATION ET SÉCURITÉ
+│   │   ├── [MARKDOWN] - Mécanismes de sécurité
+│   │   ├── [CODE] - Méthode is_chain_valid complète
+│   │   ├── [CODE] - Tests de validation (3 scénarios)
+│   │   └── [MARKDOWN] - Analyse de sécurité
+│   │
+│   ├── 6. API REST SIMULATION
+│   │   ├── [MARKDOWN] - Introduction API
+│   │   ├── [CODE] - Classe API (get_chain, mine_block, add_transaction, get_balance)
+│   │   ├── [CODE] - Simulation d'appels API
+│   │   └── [MARKDOWN] - Documentation API (tableau endpoints)
+│   │
+│   └── 7. STATISTIQUES ET ANALYTICS
+│       ├── [CODE] - Fonctions analytiques (get_blockchain_stats, get_transaction_volume, get_most_active_addresses, get_mining_efficiency)
+│       ├── [CODE] - Génération de rapport
+│       └── [MARKDOWN] - Interprétation
+│
+├── PARTIE II - DÉCENTRALISATION
+│   │
+│   ├── 1. ARCHITECTURE MULTI-NŒUDS
+│   │   ├── [MARKDOWN] - Théorie de la décentralisation
+│   │   ├── [CODE] - Classe Node (node_id, host, port, blockchain, peers, register_peer, get_peers)
+│   │   ├── [CODE] - Simulation locale de 3 nœuds
+│   │   └── [MARKDOWN] - Diagramme réseau
+│   │
+│   ├── 2. COMMUNICATION INTER-NŒUDS
+│   │   ├── [MARKDOWN] - Protocoles de communication
+│   │   ├── [CODE] - Méthodes de communication (broadcast_block, receive_block, request_chain, send_chain)
+│   │   ├── [CODE] - Démonstration communication
+│   │   └── [MARKDOWN] - Trace des messages
+│   │
+│   ├── 3. SYNCHRONISATION
+│   │   ├── [MARKDOWN] - Algorithme de synchronisation
+│   │   ├── [CODE] - Méthode resolve_conflicts
+│   │   ├── [CODE] - Scénario de conflit (chaînes divergentes)
+│   │   └── [MARKDOWN] - Analyse du consensus
+│   │
+│   ├── 4. SCÉNARIOS AVANCÉS
+│   │   ├── [MARKDOWN] - Cas d'usage réels
+│   │   ├── [CODE] - Scénario 1 : Partition réseau
+│   │   ├── [CODE] - Scénario 2 : Nœud malveillant
+│   │   ├── [CODE] - Scénario 3 : Double spending
+│   │   └── [MARKDOWN] - Sécurité du réseau
+│   │
+│   ├── 5. CONSENSUS DISTRIBUÉ
+│   │   ├── [MARKDOWN] - Algorithmes de consensus
+│   │   ├── [CODE] - Méthode consensus avec vote (vote_on_chain)
+│   │   └── [CODE] - Démonstration vote (3 chaînes)
+│   │
+│   └── 6. MÉTRIQUES RÉSEAU
+│       ├── [CODE] - Fonctions de monitoring (get_network_health, get_propagation_time, get_fork_frequency, get_consensus_rate)
+│       ├── [CODE] - Dashboard réseau
+│       └── [MARKDOWN] - Visualisation état réseau (tableau)
+│
+└── SECTION FINALE
+    │
+    ├── [CODE] - Tests d'intégration complets (run_full_test_suite)
+    ├── [MARKDOWN] - Résumé des résultats
+    ├── [CODE] - Démonstration finale interactive (playground)
+    ├── [MARKDOWN] - Instructions d'utilisation
+    ├── [MARKDOWN] - Conclusion et perspectives
+    └── [MARKDOWN] - Références et bibliographie
+
+
+    
